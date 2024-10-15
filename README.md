@@ -7,7 +7,7 @@ The project aims to provide a highly scalable logistics platform similar to Uber
 This platform is designed to solve the challenges of managing vehicle logistics for deliveries. It includes dynamic pricing models with surge charges during peak hours, bad weather, and remote or crowded areas. Real-time GPS tracking ensures customers can monitor their deliveries, while drivers receive bookings based on proximity.
 
 The system uses sharding, caching, and load balancing to handle high traffic and ensure performance at scale.
-![Sequence Diagram ](./public/sqd.png)
+![Sequence Diagram ](./public/sqd.jpeg)
 
 ## Features
 
