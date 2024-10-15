@@ -7,6 +7,7 @@ The project aims to provide a highly scalable logistics platform similar to Uber
 This platform is designed to solve the challenges of managing vehicle logistics for deliveries. It includes dynamic pricing models with surge charges during peak hours, bad weather, and remote or crowded areas. Real-time GPS tracking ensures customers can monitor their deliveries, while drivers receive bookings based on proximity.
 
 The system uses sharding, caching, and load balancing to handle high traffic and ensure performance at scale.
+![Sequence Diagram ](./public/sqd.png)
 
 ## Features
 
@@ -42,11 +43,11 @@ The system uses sharding, caching, and load balancing to handle high traffic and
 - **Redis Caching**: Reduces the load on the main database by caching commonly accessed data, ensuring fast response times during high traffic.
 
 ## High-Level Architecture Diagram
-
+![High Level Architecture](./public/hla.png)
 In the high-level architecture, load balancers ensure even distribution of traffic, Redis caching stores frequently accessed data like GPS locations, and MongoDB sharding supports the system’s horizontal scaling. The application is designed to handle large amounts of real-time data, with sharding and caching to improve response times.
 
 ## Entity-Relationship (ER) Diagram
-
+![Entity Relationship Diagram](./public/erd.png)
 The ER diagram showcases the relationships between key entities such as Users, Drivers, Bookings, Vehicles, and Admins. Each user can create multiple bookings, each booking is assigned a driver and vehicle, and the admin manages the overall system.
 
 ## Major Design Decisions and Trade-offs
