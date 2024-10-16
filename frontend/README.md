@@ -28,7 +28,7 @@ This frontend provides a user-friendly interface for different roles in the logi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/logistics-frontend.git
+   git clone https://github.com/Pritish-Sinha/bus-tracker.git
    cd logistics-frontend
 ``
 2. Install dependencies:
