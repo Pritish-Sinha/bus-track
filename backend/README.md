@@ -35,7 +35,7 @@ This backend serves the core functionality of a scalable logistics platform, han
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/logistics-backend.git
+   git clone https://github.com/Pritish-Sinha/bus-tracker.git
    cd logistics-backend
 ``
 2. Install dependencies:
